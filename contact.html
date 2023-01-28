@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AGC | Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.3.slim.min.js" integrity="sha256-ZwqZIVdD3iXNyGHbSYdsmWP//UBokj2FHAxKuSBKDSo=" crossorigin="anonymous"></script>
+    <!-- <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/> -->
+</head>
+<body>
+    <!-- for adding icons -->
+    <script src="https://kit.fontawesome.com/c13d4a9f3c.js" crossorigin="anonymous"></script>
+
+    <!-- Navigation -->
+    <nav>
+        <img src="images/logo.png" alt="">
+        <div class="navigation">
+            <ul>
+                <i id="menu-close" class="fas fa-times"></i>
+                <li><a href="index.html">Home</a></li>
+                <li><a  href="about.html">About</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="course.html">Courses</a></li>
+                <li><a class="active" href="contact.html">Contact</a></li>
+            </ul>
+            <img src="images/menu.png" alt="" id="menu-btn">
+        </div>
+    </nav>
+
+    <!-- Home -->
+    <section id="about-home">
+        <h2>Contact Us</h2>
+    </section>
+
+    <section id="contact">
+        <div class="getin">
+            <h2>Get in touch</h2>
+            <p>Looking for help? Fill the form and start a new adventure.</p>
+            <div class="getin-details">
+                <h3>Headquaters</h3>
+                <div>
+                    <i class="fa-solid fa-house get"></i>
+                    <p>744 New York Ave, Brooklyn, kings, New York</p>
+                </div>
+                <h3>Phone</h3>
+                <div>
+                    <i class="fa-solid fa-phone get"></i>
+                    <p>(+642) 245 354 432 <br>(+420) 336 476 328</p>
+                </div>
+                <h3>Support</h3>
+                <div>
+                    <i class="fa-solid fa-envelope get"></i>
+                    <p>help@gmail.com <br> agc@gmail.com</p>
+                </div>
+                <h3>Follow us</h3>
+                <div class="pro-links">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-linkedin-in"></i>
+                </div>
+
+            </div>
+        </div>
+        <div class="form">
+            <h4>Let's Connect</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <div class="form-row">
+                <input type="text" placeholder="Your Name">
+                <input type="text" placeholder="Email">
+            </div>
+            <div class="form-col">
+                <input type="text" placeholder="Subject">
+            </div>
+            <div class="form-col">
+                <textarea name="" id="" cols="30" rows="8" placeholder="How can we help?"></textarea>
+            </div>
+            <div class="form-col">
+                <button>Send Message</button>
+            </div>
+        </div>
+    </section>
+    
+
+    
+    
+    <!-- footer -->
+    <footer>
+        <div class="footer-col">
+            <h3>Top Products</h3>
+            <li>Manage</li>
+            <li>Power Tools</li>
+            <li>Managed Website</li>
+            <li>Marketing Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Top Products</h3>
+            <li>Manage</li>
+            <li>Power Tools</li>
+            <li>Managed Website</li>
+            <li>Marketing Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Top Products</h3>
+            <li>Manage</li>
+            <li>Power Tools</li>
+            <li>Managed Website</li>
+            <li>Marketing Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Top Products</h3>
+            <li>Manage</li>
+            <li>Power Tools</li>
+            <li>Managed Website</li>
+            <li>Marketing Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>NewsLetter</h3>
+            <p>You can trust us. we only send promo offers, </p>
+            <div class="subscribe">
+                <input type="email" name="" id="" placeholder="Your Email address">
+                <a href="#" class="red">SUBSCRIBE</a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &#169;2021 All rights reserved | This template is made by AGC</p>
+            <div class="pro-links">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin-in"></i>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        $('#menu-btn').click(function(){
+            $('nav .navigation ul').addClass('active')
+        });
+        $('#menu-close').click(function(){
+            $('nav .navigation ul').removeClass('active')
+        });
+    </script>
+
+</body>
+</html>
